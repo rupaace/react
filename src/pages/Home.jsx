@@ -1,6 +1,7 @@
 import React from 'react'
 import video from "../assets/Christmas.mp4"
 import About from './About'
+import Contact from './Contact'
 import Services from './Services'
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
     </div>
     <About />
     <Services />
+    <Contact />
 
 </>
     )

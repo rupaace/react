@@ -1,12 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
-function Footer() {
+
+const Footer = () => {
   return (
-    <>
-    <div className='bg-gray-200 mb-0 h-20 mt-10  w-full'> <span className='flex items-center justify-center p-10 text-red-600'> Desinged By Ace</span></div>
-    </>
-
-  )
+    <footer className="bg-gray-50 text-purple-300 py-8">
+      <div className="container mx-auto flex flex-wrap items-center justify-center font-semibold">
+          <div className="text-sm">
+            Copyright &copy; {new Date().getFullYear()} Ace
+          </div>
+        </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
